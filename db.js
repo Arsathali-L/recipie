@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 
 // Use environment variables to set your MongoDB URI
-const mongoDBURI =
-  process.env.MONGODB_URI || "mongodb://localhost:27017/recipes/recipes";
+const mongoDBURI ="mongodb+srv://arsathali:ali@cluster0.ilqgp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 async function createDbConnection() {
   try {
